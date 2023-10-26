@@ -24,7 +24,7 @@ const Computers = ({ mobileResponsive }) => {
       <primitive
         object={computer.scene}
         scale={mobileResponsive ? 0.4 : 0.55}
-        position={mobileResponsive ? [0, -3, -1.1] : [0, -3.9, -1.1]}
+        position={mobileResponsive ? [0, -4, -1.1] : [0, -3.9, -1.1]}
       />
     </mesh>
   );
